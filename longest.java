@@ -1,3 +1,8 @@
+import java.io.*;
+class longest()
+{
+  public static void main(String args[])
+  {
 public String longestCommonPrefix(String strs[])
 {
 if(strs==null||strs.length==0)
@@ -26,4 +31,6 @@ return s1.substring(0,i);
 }
 }
 return strs[0].substring(0,minlen);
+}
+}
 }
